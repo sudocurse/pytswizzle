@@ -13,5 +13,4 @@ for cursor in range(0, len(verbs)):
     print ''.join(output)
     if v is 'shake':
         print "{}, {}".format(title, title)
-    cursor += 1
 
