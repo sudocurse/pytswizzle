@@ -1,6 +1,6 @@
 title = "shake it off"
 prepositions = ['cause', 'and', '', '', 'and', '']
-nouns = ['players', 'haters', 'baby, I\'m just gonna', 'heartbreakers', 'fakers', 'baby I\'m just gonna']
+nouns = ['players', 'haters', 'baby, I\'m just', 'heartbreakers', 'fakers', 'baby I\'m just']
 verbs = ['play', 'hate', 'shake', 'break', 'fake', 'shake']
 
 for cursor in range(0, len(verbs)):
@@ -13,5 +13,4 @@ for cursor in range(0, len(verbs)):
     print ''.join(output)
     if v is 'shake':
         print "{}, {}".format(title, title)
-    cursor += 1
 
